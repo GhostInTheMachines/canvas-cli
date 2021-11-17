@@ -1,4 +1,8 @@
-"""really go away"""
+"""doctype error - really go away"""
+# Import modules from InstructureConn video
+import requests
+import json
+
 # Import the Canvas class
 from canvasapi import Canvas
 from vault.dmc_creds import Credentials

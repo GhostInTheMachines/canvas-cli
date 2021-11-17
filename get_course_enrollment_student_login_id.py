@@ -10,7 +10,7 @@ API_URL = Credentials.API_URL
 
 API_KEY = Credentials.API_KEY
 
-REQ = "/api/v1/courses/1502155/enrollments?type[]=StudentEnrollment"
+REQ = "/api/v1/courses/1504696/enrollments?type[]=StudentEnrollment"
 payload={}
 headers = {
     'Authorization': 'Bearer ' + API_KEY

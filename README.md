@@ -1,4 +1,4 @@
-# canvas-cli
+# canvas_cli
 
 ## Prerequisites
 

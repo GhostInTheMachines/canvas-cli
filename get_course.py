@@ -15,15 +15,6 @@ payload={}
 headers = {
     'Authorization': 'Bearer ' + API_KEY
 }
-
-# Initialize a new Canvas object
-# canvas = Canvas(API_URL, API_KEY)
-
-# group = canvas.get_course(1502155, include=['user_id'])
-
-# print(group.get_enrollments)
-
-
 response = requests.request("GET", API_URL+REQ, headers=headers, data=payload)
 # print(response.text)
 
